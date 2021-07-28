@@ -5069,7 +5069,6 @@ public:
 		std::cout << std::endl;
 
 		for (int i = 0; i < 55; i++) {
-			std::cout << i << std::endl;
 			if ((enArr[i].rotorOne->rotorNumber == 1 && enArr[i].rotorTwo->rotorNumber == 2 && enArr[i].rotorThree->rotorNumber == 3)) {
 				getBestCombination(enArr[i], s);
 				std::cout << "Testing Rotors: ";
